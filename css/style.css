@@ -1,0 +1,24 @@
+:root {
+	--escuro: #000;
+	--claro: #fff
+}
+
+body {
+	transition: background-color 0.5s;
+	padding: 20px;
+}
+body.light {
+	background-color: var(--claro);
+	color: var(--escuro);
+}
+body.dark {
+	background-color: var(--escuro);
+	color: var(--claro);
+}
+
+button {
+	cursor: pointer;
+}
+img {
+	height: 300px;
+}
